@@ -1,0 +1,27 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+aiohttp = "*"
+asyncpg = "*"
+aiomysql = "*"
+aioodbc = "*"
+aiofiles = "*"
+openapi-spec-validator = "*"
+pandas = "*"
+janus = "*"
+sqlalchemy = "*"
+"psycopg2" = "*"
+
+
+[dev-packages]
+
+pytest = "*"
+sphinx = "*"
+jsonschema = "*"
+pytest-asyncio = "*"
